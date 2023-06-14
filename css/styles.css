@@ -1,12 +1,23 @@
-body {color: #2E2F42}
+/* Common styles */
+body 
+{color: #2E2F42; }
 
-/* Header */
-.top-line {color: #2E2F42;}
-.top-line:hover {color: #404BBF;}
+/* Header styles */
 
-/* Section 1 */
-.hero-bg {background-color: #2E2F42;}
-.hero-text {color: #FFFFFF;}
-.hero-button {background-color: #4D5AE5;}
-.hero-button:hover {background-color: #404BBF;;}
-.bt-text {color:#FFFFFF;}
+.header {
+}
+.header-nav {
+}
+.header-logo {
+}
+.header-list {
+}
+.header-item {
+}
+.header-link {
+}
+.header-info {
+}
+.header-info-list {
+}
+
