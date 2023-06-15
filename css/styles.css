@@ -1,6 +1,8 @@
 /* Common styles */
-body 
-{color: #2E2F42; }
+body {
+  color: #2e2f42;
+  font-family: "Roboto", sans-serif; 
+}
 
 /* Header styles */
 
@@ -21,3 +23,22 @@ body
 .header-info-list {
 }
 
+.header-info-item {
+}
+.header-info-link {
+}
+
+/* Hero section styles */
+
+.main {
+}
+.section {
+}
+.hero {
+}
+.hero-title {
+}
+.hero-btn {
+}
+.hero-btn-text {
+}
