@@ -152,9 +152,9 @@ p {
 
 /* Section team styles */
 
-.section-team {
-  background-color: var(--footer-text);
+.section-team {background-color: var(--footer-text);
 }
+
 .team-list {
   
 }
