@@ -79,6 +79,7 @@ p {
   text-transform: uppercase;
   color: var(--main-color);
   text-decoration: none
+  
 }
 
 .header-list {list-style: none;
