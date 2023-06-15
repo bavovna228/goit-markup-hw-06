@@ -78,11 +78,11 @@ ol {
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: var(--main-color);
-  text-decoration: none
-  
+  text-decoration: none;
 }
 
-.header-list {list-style: none;
+.header-list {
+  list-style: none;
 }
 .header-item {
 }
@@ -99,9 +99,11 @@ ol {
   color: var(--action-color);
 }
 
-.header-info {font-style: normal;
+.header-info {
+  font-style: normal;
 }
-.header-info-list { list-style: none;
+.header-info-list {
+  list-style: none;
 }
 
 .header-info-item {
@@ -136,13 +138,12 @@ ol {
   color: var(--light-color);
 }
 .hero-btn {
+  color: var(--light-color);
   background-color: var(--primary-brand);
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.04em;
-  color: var(--light-color);
-  
 }
 .hero-btn:hover,
 .hero-btn:focus {
@@ -150,15 +151,16 @@ ol {
 }
 
 /* Benefits section styles */
-.benefits-list {}
+.benefits-list {
+}
 
 /* Section team styles */
 
-.section-team {background: var(--footer-text);
+.section-team {
+  background: var(--footer-text);
 }
 
 .team-list {
-  
 }
 /* Footer styles */
 
@@ -179,4 +181,10 @@ ol {
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: var(--footer-text);
+}
+
+/* Portfolio */
+
+.portfolio-link {
+  text-decoration: none;
 }
