@@ -58,7 +58,9 @@ button {
 .header nav {
 }
 
-.link {text-decoration: none;}
+.link {
+  text-decoration: none;
+}
 
 .header-logo {
   font-family: "Raleway", sans-serif;
@@ -86,10 +88,14 @@ button {
 .header list {
   list-style: none;
 }
-.header item {list-style: none; text-decoration:none;
+.header item {
+  list-style: none;
+  text-decoration: none;
 }
 
-.hero {text-decoration:none}
+.hero {
+  text-decoration: none;
+}
 
 .header-link {
   font-weight: 500;
@@ -157,28 +163,25 @@ button {
 
 /* Benefits section styles */
 
-.benefits list { list-style: none;
+.benefits list {
+  list-style: none;
 }
 
 .benefits-item {
-
 }
 
 /* Section team styles */
 
-.team-item {background-color: var(--light-color);
-  
+.team-item {
+  background-color: var(--light-color);
 }
 .section-team {
   background: var(--footer-text);
 }
 
-.team list {list-style: none;
-
+.team list {
+  list-style: none;
 }
-
-
-
 
 /* Footer styles */
 
@@ -205,4 +208,14 @@ button {
 
 .portfolio link {
   text-decoration: none;
+}
+.portfoli-btn {
+  color: var(--primary-brand);
+  background-color: var(--footer-text);
+}
+
+.portfoli-btn:focus,
+.portfoli-btn:hover {
+  color: var(--light-color);
+  background-color: var(--action-color);
 }
