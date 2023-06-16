@@ -209,7 +209,7 @@ button {
 .portfolio link {
   text-decoration: none;
 }
-.portfoli-btn {
+.btn-portfolio {
   color: var(--primary-brand);
   background-color: var(--footer-text);
   font-weight: 500;
@@ -218,8 +218,8 @@ button {
   letter-spacing: 0.04em;
 }
 
-.portfoli-btn:focus,
-.portfoli-btn:hover {
+.btn-portfolio:focus,
+.btn-portfolio:hover {
   color: var(--light-color);
   background-color: var(--action-color);
 }
