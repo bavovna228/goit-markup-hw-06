@@ -163,6 +163,9 @@ button {
 
 /* Section team styles */
 
+.team-item {background-color: var(--light-color);
+  
+}
 .section-team {
   background: var(--footer-text);
 }
@@ -171,9 +174,7 @@ button {
 
 }
 
-.team-item {background-color: var(--light-color);
-  
-}
+
 
 
 /* Footer styles */
