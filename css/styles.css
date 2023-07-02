@@ -497,6 +497,15 @@ background-color: #31D0AA;
 /* Overlayyyy */
 /* 00000000000 */
 
+.prtfl-wrapper {
+  position: relative;
+    width: 360px;
+    height: 300px;
+    margin: 0 auto;
+    overflow: hidden;
+  
+}
+
 .overlay {
   position: absolute;
     top: 0;
@@ -514,7 +523,7 @@ background-color: #31D0AA;
 }
 
 
-:hover .overlay {transform: translateY(0);}
+.prtfl-wrapper:hover .overlay {transform: translateY(0);}
 
 
 /* 000000000000000000 */
