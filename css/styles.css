@@ -441,6 +441,12 @@ background-color: #31D0AA;
 
 /* Footer styles */
 
+.footer-container {
+
+  display: flex;
+      
+}
+
 .footer {
   background-color: var(--main-color);
   padding: 100px 0;
@@ -463,13 +469,22 @@ background-color: #31D0AA;
   padding: 0;
 }
 
-.ftr-info {
-
-}
 
 .network-team-icon.ftr {
 
-  
+  margin: 0 120px;
+}
+
+
+.social-title {
+
+  font-size: 16px;
+font-weight: 500;
+line-height: 24px;
+letter-spacing: 0.32px;
+color: var(--light-color);
+margin-bottom: 16px;
+vertical-align: baseline;
 }
 
 
