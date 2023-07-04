@@ -516,21 +516,23 @@ button {
 }
 
 .portfolio-item {
-  display: block;
+ 
   width: calc((100% - 48px) / 3);
   flex-shrink: 0;
  
 }
 
-.portfolio-item:hover {
+
+.portfolio-link{
+  display: block;
+  transition: box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}  
+
+.portfolio-link:hover {
   box-shadow: 0px 2px 1px 0px rgba(46, 47, 66, 0.08),
     0px 1px 1px 0px rgba(46, 47, 66, 0.16),
     0px 1px 6px 0px rgba(46, 47, 66, 0.08);
 }
-
-.portfolio-link{
-  transition: box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
-}  
 
 /* Overlayyyy */
 /* 00000000000 */
@@ -688,12 +690,10 @@ button {
 .modal-button:focus {
   background-color: #404bbf;
   border: none;
+  fill: #ffffff;
 }
 
 .modal-icon {
+  color: #2E2F42;
   transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
-}
-.modal-icon:hover,
-.modal-icon:focus {
-  fill: #ffffff;
 }
