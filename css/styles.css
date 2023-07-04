@@ -396,7 +396,7 @@ button {
 
 .network-link:hover,
 .network-link:focus {
-  background-color: #31d0aa;
+  background-color: #404bbf;
 }
 
 .network-icon {
@@ -440,11 +440,7 @@ button {
 .clients-link:hover,
 .clients-link:focus {
   border-color: var(--action-color);
-}
-
-.clients-link:hover .clients-icon,
-.clients-link:focus .clients-icon {
-  fill: var(--action-color);
+  color: #404bbf;
 }
 
 .clients-icon {
@@ -501,6 +497,12 @@ button {
   margin-right: 120px;
 }
 
+.network-link.ftr:hover,
+.network-link.ftr:focus
+ {background-color: #31D0AA;}
+
+
+
 /* Portfolio */
 
 .section-portfolio {
@@ -526,13 +528,18 @@ button {
 .portfolio-link{
   display: block;
   transition: box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  
+ 
 }  
+
 
 .portfolio-link:hover {
   box-shadow: 0px 2px 1px 0px rgba(46, 47, 66, 0.08),
     0px 1px 1px 0px rgba(46, 47, 66, 0.16),
     0px 1px 6px 0px rgba(46, 47, 66, 0.08);
+    
 }
+
 
 /* Overlayyyy */
 /* 00000000000 */
@@ -583,6 +590,11 @@ button {
   transform: translateY(100%); 
   transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
+.wrapper-text:hover .portfolio-link {
+  transform: translateY(0%);
+}
+
+
 
 /* 000000000000000000 */
 
