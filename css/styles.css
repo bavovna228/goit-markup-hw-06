@@ -292,7 +292,7 @@ button {
 /* Benefits section styles */
 
 .benefits-icon {
-  margin: 24px 100px;
+  
 }
 
 .bnfts-bg-color {
@@ -540,9 +540,7 @@ button {
 
 .prtfl-wrapper {
   position: relative;
-  width: 360px;
-  height: 300px;
-  margin: 0 auto;
+  
   overflow: hidden;
 }
 
