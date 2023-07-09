@@ -522,10 +522,43 @@ button {
   gap: 24px;
 }
 .footer_form-input {
+  width: 264px;
+  height: 40px;
+  border-radius: 4px;
+  border: 1px solid var(--white, #FFF);
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
+  background-color: transparent;
+  
 }
+
+.footer_form-input::placeholder {
+padding: 8px 212px 8px 16px;
+  color: var(--white, #FFF);
+font-size: 12px;
+line-height: 24px;
+letter-spacing: 0.48px;
+
+}
+
 .button-subscribe {
+display: flex;
+align-items: center;
+gap: 16px;
+  color: var(--light-color);
+  background-color: var(--primary-brand);
+  border: none;
+  padding: 8px 24px;
 }
+
+.social-title .subscribe {
+padding: 8px 64px 8px 24px;
+font-weight: 500;
+line-height: 24px;
+letter-spacing: 0.64px;
+}
+
 .button-subscribe-icon {
+  fill: var(--light-color);
 }
 
 
