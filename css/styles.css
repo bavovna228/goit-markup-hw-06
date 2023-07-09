@@ -504,6 +504,32 @@ button {
   background-color: #31d0aa;
 }
 
+.network-team-icon {
+
+  margin-right: 80px;
+}
+
+/* Footer e-mail / subscribe */
+
+.ftr-form-info {
+ 
+}
+.ftr-form-desc {
+}
+.footer_form {
+  display: flex;
+  align-items: center;
+  gap: 24px;
+}
+.footer_form-input {
+}
+.button-subscribe {
+}
+.button-subscribe-icon {
+}
+
+
+
 /* Portfolio */
 
 .section-portfolio {
@@ -738,13 +764,14 @@ button {
 
 .modal-form-input {
   width: 360px;
-
+  height: 40px;
   padding: 11px 38px;
   font-size: 18px;
   border-radius: 4px;
   border: 1px solid rgba(46, 47, 66, 0.4);
   outline: transparent;
   transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  
 }
 
 .modal-form-input:focus {
@@ -793,11 +820,6 @@ button {
   fill: var(--primary-brand);
 }
 
-input {
-  font-family: inherit;
-  display: block;
-  width: 90%;
-}
 
 .form-button {
   display: block;
@@ -819,4 +841,59 @@ input {
 .form-button:hover,
 .form-button:focus {
   background-color: var(--action-color);
+}
+
+/* Agreement */
+
+
+.modal-form-agreement {
+  display: flex;
+  align-items: center;
+  margin-bottom: 24px;
+  gap: 8px;
+}
+
+.modal-form-custom-checkbox {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 16px;
+  height: 16px;
+  border-radius: 2px;
+  border: 1px solid rgba(46, 47, 66, 0.40);
+  transition: border-color  background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.modal-form-checkbox:checked + .modal-form-custom-checkbox {
+
+  border-color: var(--action-color);
+  background-color: var(--action-color);
+}
+
+.modal-form-checkbox-icon {
+
+  opacity: 0;
+}
+
+.modal-form-checkbox:checked + .modal-form-custom-checkbox > .modal-form-checkbox-icon {
+
+  opacity: 1;
+}
+
+.modal-form-agreement-desc {
+  color: #8E8F99;
+font-family: Roboto;
+font-size: 12px;
+font-style: normal;
+font-weight: 400;
+line-height: 14px;
+letter-spacing: 0.48px;
+}
+.modal-form-agreement-desc > a {
+
+color: #4D5AE5;
+text-decoration:underline;
+}
+
+.modal-form-link {
 }
