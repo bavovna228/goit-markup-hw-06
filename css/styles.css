@@ -905,9 +905,11 @@ button {
   align-items: center;
   justify-content: center;
   fill: transparent;
+  margin-right: 8px;
 }
 
-.modal-form-checkbox:checked + .modal-form-custom-checkbox {
+
+.modal-form-checkbox:checked + .modal-form-agreement > .modal-form-custom-checkbox {
   fill: var(--footer-text);
   background-color: var(--action-color);
   border: none;
