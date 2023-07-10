@@ -396,7 +396,7 @@
           </p>
           <form class="footer_form" name="footer_form" autocomplete="off">
             <label class="footer_form-label">
-              <input class="footer_form-input" type="email" name="user_email" placeholder="E-mail" />
+              <input class="footer_form-input" type="email" name="user-email" placeholder="E-mail" />
             </label>
             <button class="button-subscribe" type="submit">Subscribe
               <svg class="button-subscribe-icon" width="24" height="24">
@@ -477,28 +477,31 @@
               </div>
             
           </div>
-<div class="div-modal-form-comment">
+
+          <div class="div-modal-form-comment">
   
-            <label class="form-label">
-              <span class="modal-form-label">Comment</span>
-              <textarea
-                class="modal-form-textarea"
-                name="user_comment"
+            <label class="form-label" for="user-comment">Comment</label>
+              
+              <textarea class="modal-form-textarea"
+                id="user-comment"
+                name="user-comment"
                 placeholder="Text input"
                 rows="5">
               </textarea>
-            </label>
-</div>
+            
+          </div>
 
           <div class="div-modal-form-checkbox">
-            <label class="modal-form-agreement">
-              <input class="modal-form-checkbox visually-hidden" type="checkbox" />
+            
+              <input class="modal-form-checkbox visually-hidden" id="user-privacy" name="user-privacy" type="checkbox" value="true" />
+             
+              <label class="modal-form-agreement" for="user-privacy">I accept the terms and conditions of the<a class="modal-form-link" href="#"> Privacy Policy</a>
               <span class="modal-form-custom-checkbox">
                 <svg class="modal-form-checkbox-icon" width="10" height="8">
                   <use href="./images/icons.svg#icon-vector"></use>
                 </svg>
               </span>
-              <span class="modal-form-agreement-desc">I accept the terms and conditions of the<a class="modal-form-link" href="#"> Privacy Policy</a></span>
+              
             </label>
           </div>
 
