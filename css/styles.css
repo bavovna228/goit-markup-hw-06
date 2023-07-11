@@ -558,6 +558,11 @@ button {
   line-height: 1.5;
   letter-spacing: 0.04em;
 }
+.button-subscribe:hover,
+.button-subscribe:focus  {
+
+  background-color: var(--action-color);
+}
 
 .social-title .subscribe {
   padding: 8px 64px 8px 24px;
@@ -827,10 +832,9 @@ button {
   height: 120px;
   padding: 8px 16px;
   resize: none;
-  color: rgba(46, 47, 66, 0.4);
-  font-size: 12px;
-  line-height: 1.17;
-  letter-spacing: 0.04em;
+  font-size: 18px;
+  
+  
   border-radius: 4px;
   border: 1px solid rgba(46, 47, 66, 0.4);
   background-color: transparent;
@@ -843,7 +847,10 @@ button {
 }
 
 .modal-form-textarea::placeholder {
-  color: currentColor;
+  color: rgba(46, 47, 66, 0.4);
+  font-size: 12px;
+  line-height: 1.17;
+  letter-spacing: 0.04em;
 }
 
 .modal-form-icon {
