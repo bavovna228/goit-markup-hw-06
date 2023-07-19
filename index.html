@@ -23,12 +23,21 @@
     <link rel="stylesheet" href="./css/styles.css" />
   </head>
   <body class="page">
-    <!-- <header class="header brd">
+    <header class="header brd">
       <div class="container-header container">
         <nav class="header nav">
           <a class="link header-logo" href="./index.html"
-            >Web<span class="logo">Studio</span></a
-          >
+            >Web<span class="logo">Studio</span></a>
+          
+        <button
+          class="menu-toggle js-open-menu"
+          aria-expanded="false"
+          aria-controls="mobile-menu">
+          <svg class="menu-toggle-icon" width="32" height="22">
+            <use href="./images/icons.svg#icon-mobilemenu"></use>
+          </svg>
+        </button>
+
           <ul class="header-list list">
             <li class="header-item">
               <a class="link header-link active" href="./index.html">Studio</a>
@@ -57,7 +66,10 @@
         </address>
       </div>
     </header>
-    <main class="main"> -->
+
+    <!-- Main -->
+
+    <main class="main">
       <!-- section 1 -->
       <!-- <section class="section-hero">
         <div class="hero-container container">
@@ -124,7 +136,7 @@
         </div>
       </section>
       <!-- section 3 -->
-      <!-- <section class="section doing">
+      <section class="section doing">
         <div class="container">
           <h2 class="section-title doing-title">What are we doing</h2>
           <ul class="section-doing list">
@@ -143,9 +155,9 @@
             </li>
           </ul>
         </div>
-      </section> -->
+      </section>
       <!-- Team section 4  -->
-      <!-- <section class="section section-team">
+      <section class="section section-team">
         <div class="container">
           <h2 class="section-title title-team">Our Team</h2>
           <ul class="team-list list">
@@ -153,7 +165,7 @@
               <img src="./images/man.jpg" alt="man" width="264" />
               <div class="team-text-info">
                 <h3 class="title title-persn">Mark Guerrero</h3>
-                <p class="text">Product Designer</p>
+                <p class="text text-team">Product Designer</p>
 
                 <ul class="network-team">
                   <li class="network-item">
@@ -191,7 +203,7 @@
               />
               <div class="team-text-info">
                 <h3 class="title title-persn">Tom Ford</h3>
-                <p class="text">Frontend Developer</p>
+                <p class="text text-team">Frontend Developer</p>
 
                 <ul class="network-team">
                   <li class="network-item">
@@ -225,7 +237,7 @@
               <img src="./images/woman.jpg" alt="woman" width="264" />
               <div class="team-text-info">
                 <h3 class="title title-persn">Camila Garcia</h3>
-                <p class="text">Marketing</p>
+                <p class="text text-team">Marketing</p>
 
                 <ul class="network-team">
                   <li class="network-item">
@@ -263,7 +275,7 @@
               />
               <div class="team-text-info">
                 <h3 class="title title-persn">Daniel Wilson</h3>
-                <p class="text">UI Designer</p>
+                <p class="text text-team">UI Designer</p>
 
                 <ul class="network-team">
                   <li class="network-item">
@@ -295,11 +307,11 @@
             </li>
           </ul>
         </div>
-      </section> -->
+      </section>
 
       <!-- Customers section 5 -->
 
-      <!-- <section class="section">
+      <section class="section">
         <div class="customers-container container">
           <h2 class="customers-title section-title">Customers</h2>
           <ul class="clients-list">
@@ -348,7 +360,7 @@
           </ul>
         </div>
       </section>
-    </main> -->
+    </main>
     <!-- Footer -->
     <!-- <footer class="footer">
       <div class="container footer-container">
@@ -511,6 +523,78 @@
         </form>
       </div>
     </div>
+
+    <!-- Mobile menu -->
+
+    <div class="menu-container js-menu-container" id="mobile-menu">
+      <button class="menu-toggle js-close-menu">
+        <svg
+      
+          width="8"
+          height="8"
+        >
+        <use href="./images/icons.svg#icon-close"></use>
+        </svg>
+      
+      </button>
+
+      <ul class="mobile-menu">
+        <li class="mobile-menu-item">
+          <a href="" class="mobile-menu-link">Studio</a></li>
+        <li class="mobile-menu-item">
+          <a href="" class="mobile-menu-link">Portfolio</a></li>
+        <li class="mobile-menu-item">
+          <a href="" class="mobile-menu-link">Contacts</a></li>
+      </ul>
+      <address>
+        <ul class="mobile-menu-info list">
+          <li class="mobile-info-item">
+            <a class="link mobile-menu-info-link" href="tel:+110001111111"
+              >+11 (000) 111-11-11</a>
+          </li>
+          <li class="mobile-info-item">
+            <a class="link mobile-info-link " href="mailto:info@devstudio.com"
+              >info@devstudio.com</a>
+          </li>
+        </ul>
+      </address>
+      <div class="network-team-icon mobile">
+        <ul class="network-team mobile">
+          <li class="network-item">
+            <a class="network-link ftr" href="#">
+              <svg class="ftr-icon-fill" width="24" height="24">
+                <use href="./images/icons.svg#instagram-2"></use>
+              </svg>
+            </a>
+          </li>
+          <li class="network-item">
+            <a class="network-link ftr" href="#">
+              <svg class="ftr-icon-fill" width="24" height="24">
+                <use href="./images/icons.svg#twitter-1"></use>
+              </svg>
+            </a>
+          </li>
+          <li class="network-item">
+            <a class="network-link ftr" href="#">
+              <svg class="ftr-icon-fill" width="24" height="24">
+                <use href="./images/icons.svg#facebook-1"></use></svg></a>
+          </li>
+          <li class="network-item">
+            <a class="network-link ftr" href="#">
+              <svg class="ftr-icon-fill" width="24" height="24">
+                <use href="./images/icons.svg#linkedin-1"></use></svg></a>
+          </li>
+        </ul>
+      </div>
+    </div>
+
+    <script
+      defer
+      src="https://cdnjs.cloudflare.com/ajax/libs/body-scroll-lock/3.1.5/bodyScrollLock.min.js"
+      integrity="sha512-HowizSDbQl7UPEAsPnvJHlQsnBmU2YMrv7KkTBulTLEGz9chfBoWYyZJL+MUO6p/yBuuMO/8jI7O29YRZ2uBlA=="
+      crossorigin="anonymous"
+    ></script>
+    <script defer src="./js/mobile-menu.js"></script>
     <script src="./js/modal.js"></script>
   </body>
 </html>
