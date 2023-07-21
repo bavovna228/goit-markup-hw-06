@@ -71,14 +71,14 @@
 
     <main class="main">
       <!-- section 1 -->
-      <!-- <section class="section-hero">
+      <section class="section-hero">
         <div class="hero-container container">
           <h1 class="hero-title">Effective Solutions for Your Business</h1>
           <button class="hero-btn" type="button" data-modal-open>
             Order Service
           </button>
         </div>
-      </section> -->
+      </section>
       <!-- section 2 -->
       <section class="section benefits">
         <div class="container">
@@ -141,28 +141,49 @@
           <h2 class="section-title doing-title">What are we doing</h2>
           <ul class="section-doing list">
             <li class="doing-img">
-              <img src="./images/display.jpg" alt="display" width="360" />
+              <img 
+                  srcset="./images/display@1x.jpg 1x, 
+                          ./images/display@2x.jpg 2x
+                          "
+                  src="./images/display@1x.jpg" 
+                  alt="display" 
+                  width="360" />
             </li>
             <li class="doing-img">
               <img
-                src="./images/phone-display.jpg"
+                srcset="./images/phone-display@1x.jpg 1x, 
+                        ./images/phone-display@2x.jpg 2x
+                       "
+                src="./images/phone-display@1x.jpg"
                 alt="phone-display"
                 width="360"
               />
             </li>
             <li class="doing-img">
-              <img src="./images/phone.jpg" alt="phone" width="360" />
+              <img 
+                   srcset="./images/phone@1x.jpg 1x, 
+                           ./images/phone@2x.jpg 2x
+                          "              
+                  src="./images/phone@1x.jpg" 
+                  alt="phone"
+                  width="360" />
             </li>
           </ul>
         </div>
       </section>
+
       <!-- Team section 4  -->
+
       <section class="section section-team">
         <div class="container">
           <h2 class="section-title title-team">Our Team</h2>
           <ul class="team-list list">
             <li class="team-item">
-              <img src="./images/man.jpg" alt="man" width="264" />
+              <img 
+                srcset="./images/man@1x.jpg 1x, 
+                        ./images/man@2x.jpg 2x
+                        "
+                src="./images/man@1x.jpg" alt="man" width="264" height="260" />
               <div class="team-text-info">
                 <h3 class="title title-persn">Mark Guerrero</h3>
                 <p class="text text-team">Product Designer</p>
@@ -197,9 +218,12 @@
             </li>
             <li class="team-item">
               <img
-                src="./images/smilingman.jpg"
+                srcset="./images/smilingman@1x.jpg 1x, 
+                        ./images/smilingman@2x.jpg 2x
+                        "
+                src="./images/smilingman@1x.jpg"
                 alt="smiling man"
-                width="264"
+                width="264" height="260"
               />
               <div class="team-text-info">
                 <h3 class="title title-persn">Tom Ford</h3>
@@ -234,7 +258,11 @@
               </div>
             </li>
             <li class="team-item">
-              <img src="./images/woman.jpg" alt="woman" width="264" />
+              <img 
+              srcset="./images/woman@1x.jpg 1x, 
+                      ./images/woman@2x.jpg 2x
+                      "
+              src="./images/woman@1x.jpg" alt="woman" width="264" height="260"/>
               <div class="team-text-info">
                 <h3 class="title title-persn">Camila Garcia</h3>
                 <p class="text text-team">Marketing</p>
@@ -269,9 +297,12 @@
             </li>
             <li class="team-item">
               <img
-                src="./images/bearded-smiling-man.jpg"
+              srcset="./images/bearded-smiling-man@1x.jpg 1x, 
+                      ./images/bearded-smiling-man@2x.jpg 2x
+                      "
+                src="./images/bearded-smiling-man@1x.jpg"
                 alt="bearded smiling man"
-                width="264"
+                width="264" height="260"
               />
               <div class="team-text-info">
                 <h3 class="title title-persn">Daniel Wilson</h3>
