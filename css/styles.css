@@ -11,7 +11,7 @@
 /* Base styles for small devices */
 @media only screen and (min-width: 320px) {
   .container { 
-  outline: 2px solid red;
+  /* outline: 2px solid red; */
 
   min-width: 320px;
   max-width: 428px;
@@ -1287,9 +1287,6 @@ button {
   color: var(--lightslate);
 }
 
-.modal-form-checkbox {
-}
-
 .modal-form-custom-checkbox {
   width: 16px;
   height: 16px;
@@ -1365,7 +1362,6 @@ button {
   transition: transform 250ms ease-in-out;
 }
 
-
 .menu-container.is-open {
   transform: translateX(0);
 }
@@ -1394,8 +1390,6 @@ button {
   fill: #ffffff;
 }
 
-
-
 .mobile-menu {
   list-style: none;
   width: fit-content;
@@ -1418,7 +1412,6 @@ button {
 .mobile-menu-link:focus {
   color: var(--action-color);
 }
-
 
 
 .mobile-info-item:not(:last-child) {
@@ -1449,11 +1442,8 @@ button {
   letter-spacing: 0.4px;
 }
 
-
 .network-team-icon.mobile {
 display: flex;
-
-
 }
 
 .network-team.mobile {
@@ -1467,8 +1457,6 @@ display: flex;
   }
 }
 
-
 .address-mobile {
-
   margin-bottom: 48px;
 }
