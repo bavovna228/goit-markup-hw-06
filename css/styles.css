@@ -145,11 +145,6 @@ button {
   letter-spacing: 0.32px;
 }
 
-@media only screen and (min-width: 768px) {
-  .text {
- 
-  }
-}
 
 
 @media only screen and (min-width: 1158px) {
@@ -158,7 +153,6 @@ button {
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: var(--post-info-color);
-    margin-bottom: 8px;
     font-weight: 400;
   }
 }
@@ -757,17 +751,18 @@ button {
   }
 }
 
-@media only screen and (min-width: 768px) {
+@media only screen and (min-width: 768px) and (max-width: 1157px) {
   .footer-container {
     display: flex;
     flex-wrap: wrap;
-    justify-content: center;
+    padding-left: 108px;
   }
 }
 
 @media only screen and (min-width: 1158px) {
   .footer-container {
     display: flex;
+    justify-content: center;
     align-items: baseline;
   }
 }
@@ -854,13 +849,13 @@ button {
   background-color: #31d0aa;
 }
 
-@media only screen and (max-width: 1157px) {
+@media only screen and (max-width: 767px) {
   .network-team-icon.ftr {
     margin-bottom: 72px;
   } 
 }
 
-@media only screen and (min-width: 768px) {
+@media only screen and (min-width: 1158px) {
   .network-team-icon.ftr {
     margin-right: 80px;
   }
@@ -868,11 +863,6 @@ button {
 
 /* Footer e-mail / subscribe */
 
-@media only screen and (min-width: 768px) and (max-width: 1157px) {
-  .ftr-form-info {
-    margin-inline-end: 124px;
-  }
-}
 
 @media only screen and (min-width: 768px) {
   .footer_form {
@@ -986,7 +976,8 @@ button {
   transition: box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.portfolio-link:hover {
+.portfolio-link:hover,
+.portfolio-link:focus {
   box-shadow: 0px 2px 1px 0px rgba(46, 47, 66, 0.08),
     0px 1px 1px 0px rgba(46, 47, 66, 0.16),
     0px 1px 6px 0px rgba(46, 47, 66, 0.08);
@@ -1443,6 +1434,12 @@ button {
   letter-spacing: 0.72px;
 }
 
+@media only screen and (max-width: 380px) {
+  .mobile-menu-info-link {
+    font-size: 24px;
+  }
+}
+
 .mobile-info-link {
   color: var(--post-info-color);
   font-size: 20px;
@@ -1462,8 +1459,14 @@ display: flex;
 .network-team.mobile {
   gap: 56px;
       justify-content: left;
- 
 }
+
+@media only screen and (max-width: 380px) {
+  .network-team.mobile {
+    gap: 33px;
+  }
+}
+
 
 .address-mobile {
 
