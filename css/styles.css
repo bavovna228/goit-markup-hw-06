@@ -337,7 +337,7 @@ button {
 .section-hero {
   background-color: var(--main-color);
   padding-top: 112px;
-  padding-bottom: 188px;
+  padding-bottom: 112px;
   background-image: linear-gradient(
       to bottom,
       rgba(46, 47, 66, 0.7),
@@ -351,6 +351,9 @@ button {
   height: 432px;
   margin: 0 auto;
 }
+
+
+
 
 @media (min-device-pixel-ratio: 2),
   (min-resolution: 192dpi),
@@ -376,6 +379,8 @@ button {
     max-width: 768px;
     height: 436px;
     padding-top: 112px;
+      padding-bottom: 112px;
+    
   }
   @media (min-device-pixel-ratio: 2),
     (min-resolution: 192dpi),
@@ -402,6 +407,7 @@ button {
     max-width: 1440px;
     height: 600px;
     padding-top: 188px;
+    padding-bottom: 188px;
   }
   @media (min-device-pixel-ratio: 2),
     (min-resolution: 192dpi),
@@ -417,6 +423,7 @@ button {
   }
 }
 
+
 .hero-title {
   font-weight: 700;
   font-size: 36px;
@@ -427,6 +434,14 @@ button {
   max-width: 320px;
   margin: 0 auto 72px;
 }
+
+@media only screen and (max-width: 427px) {
+  .hero-title {
+    font-size: 33px;
+  }
+}
+
+
 
 @media only screen and (min-width: 768px) {
   .hero-title {
@@ -499,6 +514,17 @@ button {
 @media only screen and (min-width: 768px) {
   .bnfts-title {
     text-align: left;
+  }
+}
+
+@media only screen and (min-width: 1158px) {
+  .bnfts-title {
+  
+    font-size: 20px;
+    
+    font-weight: 500;
+    line-height: 1.2;
+    letter-spacing: 0.4px;
   }
 }
 
@@ -756,7 +782,7 @@ button {
   .footer-container {
     display: flex;
     flex-wrap: wrap;
-    padding-left: 108px;
+    width: 568px;
   }
 }
 
@@ -1107,7 +1133,35 @@ button {
   pointer-events: none;
 }
 
+
+  .modal {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translateX(-50%) translateY(-50%);
+    padding: 72px 24px 24px 24px;
+  
+    width: 392px;
+    min-height: 584px;
+    background-color: #fcfcfc;
+    border-radius: 4px;
+    box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 1px 3px rgba(0, 0, 0, 0.12),
+      0px 2px 1px rgba(0, 0, 0, 0.2);
+    transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  }
+  
+@media only screen and (min-width: 320px) and (max-width: 427px) {
+  .modal {
+   
+    width: 310px;
+  }
 }
+
+    @media only screen and (min-width: 768px) {
+      .modal {
+        width: 408px;
+      }
+    }
 
 .modal-button {
   position: absolute;
